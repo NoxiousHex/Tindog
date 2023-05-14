@@ -1,0 +1,108 @@
+body {
+    margin: 0;
+    font-family: "Poppins", sans-serif;
+    background: rgba(183, 183, 183, 0.05);
+    max-width: 400px;
+    min-width: 400px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+header {
+    display: flex;
+    padding: 1em;
+    justify-content: space-between;
+    align-items: center;
+    background: white;
+}
+
+.profile {
+    padding: 0 0.5em;
+    position: relative;
+}
+
+.profile-text {
+    position: absolute;
+    bottom: 0;
+    left: 1.5em;
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1em;
+    padding: 1em;
+}
+
+button {
+    height: 70px;
+    width: 70px;
+    border-radius: 50%;
+    background-repeat: no-repeat;
+    border: none;
+    box-shadow: 0px 1px 10px 1px rgba(183, 183, 183, 0.3);
+}
+
+.swipe-btn {
+    background: url("./images/icon-cross.png");
+}
+
+.swipe-btn:hover,
+.swipe-btn:active {
+    background-color: #ffe7ef;
+}
+
+.match-btn {
+    background: url("./images/icon-heart.png");
+}
+
+.match-btn:hover,
+.match-btn:active {
+    background-color: #dbfff4;
+}
+
+.swipe-btn,
+.match-btn {
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 27px;
+    background-color: white;
+}
+
+/* Typesetting */
+
+h1,
+p {
+    text-align: left;
+}
+
+h1 {
+    color: #f8f8f8;
+    margin: 0;
+}
+
+p {
+    color: #b7b7b7;
+    margin-top: 0.2em;
+    font-size: 1.5rem;
+}
+
+/* Images */
+
+.header-item {
+    height: 25px;
+}
+
+.profile-img {
+    width: 100%;
+    border-radius: 15px;
+}
+
+.badge {
+    position: absolute;
+    top: 2em;
+    left: 1.2em;
+    width: 30%;
+    rotate: -30deg;
+}
